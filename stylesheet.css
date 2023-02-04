@@ -1,4 +1,53 @@
+header{
+    background-color: blue;
+    height: 120px;
+    width: 100%;
+}
 h2{
     color: orange;
-    border-bottom: 2px solid orange ;
+    border-bottom: solid 2px orange ;
+    
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+}
+#title {
+    display: block;
+    margin-top: 0px;
+
+}
+#logo{
+    height: 80px;
+    width: auto;
+    margin-top:  5px;
+    margin-left: 5px;
+    border: double 2px red;
+}
+.links{
+    float: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: calc(100% /3);
+}
+.sns_link a{
+    display: block;
+    color: white;
+    background-color: blue;
+    float: left;
+    font-size: 25px;
+    line-height: 70px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.sns_link :hover{
+    color: red;
+    background-color: darkblue;
+}
+*{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
